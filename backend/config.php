@@ -25,7 +25,7 @@ if (!empty($DB_HOST) && !empty($DB_NAME) && isset($DB_USER) && isset($DB_PASS)) 
 }
 
 // 2) Hostinger production credentials
-$candidates[] = ['localhost', 'u574381819_root', 'OVt94GoDm#8', 'u574381819_iswift_web', 'hostinger'];
+$candidates[] = ['localhost', 'u348991914_root', 'OVt94GoDm#8', 'u348991914_iswift_web', 'hostinger'];
 
 // 3) Local XAMPP defaults
 $candidates[] = ['localhost', 'root', '', 'iswift_web', 'local'];

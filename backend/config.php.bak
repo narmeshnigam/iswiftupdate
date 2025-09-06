@@ -16,7 +16,7 @@ $db_user = 'root';
 $db_pass = '';
 
 // Override DB credentials based on environment (prod vs local)
-// Online: localhost / u574381819_iswift_web / u574381819_root / OVt94GoDm#8
+// Online: localhost / u348991914_iswift_web / u348991914_root / OVt94GoDm#8
 // Local:  localhost / iswift_web            / root              / ''
 $app_env = getenv('APP_ENV') ?: '';
 $host_header = $_SERVER['HTTP_HOST'] ?? '';
@@ -28,8 +28,8 @@ if ($app_env) {
 }
 if ($is_prod) {
     $db_host = 'localhost';
-    $db_name = 'u574381819_iswift_web';
-    $db_user = 'u574381819_root';
+    $db_name = 'u348991914_iswift_web';
+    $db_user = 'u348991914_root';
     $db_pass = 'OVt94GoDm#8';
 } else {
     $db_host = 'localhost';
