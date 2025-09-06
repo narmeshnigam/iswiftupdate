@@ -1,0 +1,51 @@
+﻿<?php
+/**
+ * Database configuration
+ *
+ * Update the constants below with your database credentials before
+ * deploying this site to your server. The connection is created
+ * globally and used by the backend scripts and the admin panel. All
+ * scripts include this file via require. Character encoding is set
+ * to utf8mb4 and the timezone to Asia/Kolkata per project spec.
+ */
+
+// MySQL credentials â€“Â update for your environment
+$db_host = 'localhost';
+$db_name = 'iswift_web';
+$db_user = 'root';
+$db_pass = '';
+
+// Override DB credentials based on environment (prod vs local)
+// Online: localhost / u574381819_iswift_web / u574381819_root / OVt94GoDm#8
+// Local:  localhost / iswift_web            / root              / ''
+$app_env = getenv('APP_ENV') ?: '';
+$host_header = $_SERVER['HTTP_HOST'] ?? '';
+$is_prod = false;
+if ($app_env) {
+    $is_prod = in_array(strtolower($app_env), ['production', 'prod'], true);
+} else {
+    $is_prod = (bool)preg_match('/(^|\.)iswift\.in$/i', $host_header);
+}
+if ($is_prod) {
+    $db_host = 'localhost';
+    $db_name = 'u574381819_iswift_web';
+    $db_user = 'u574381819_root';
+    $db_pass = 'OVt94GoDm#8';
+} else {
+    $db_host = 'localhost';
+    $db_name = 'iswift_web';
+    $db_user = 'root';
+    $db_pass = '';
+}
+
+// Create connection
+$mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name);
+
+// Check connection
+if ($mysqli->connect_errno) {
+    die('Failed to connect to MySQL: ' . $mysqli->connect_error);
+}
+
+// Set charset and timezone
+$mysqli->set_charset('utf8mb4');
+date_default_timezone_set('Asia/Kolkata');

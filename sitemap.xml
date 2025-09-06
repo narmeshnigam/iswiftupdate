@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core pages -->
+  <url>
+    <loc>https://iswift.in/index.php</loc>
+    <lastmod>2025-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://iswift.in/about.php</loc>
+    <lastmod>2025-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://iswift.in/solutions.php</loc>
+    <lastmod>2025-09-05</lastmod>
+  </url>
+  <!-- Solutions -->
+  <url><loc>https://iswift.in/solutions/smart-locks.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/video-doorbells.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/wifi-mesh.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/smart-curtains.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/smart-sensors.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/smart-cameras.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/smart-switches.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/video-door-systems.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/smart-gate-automation.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/solutions/water-control.php</loc><lastmod>2025-09-05</lastmod></url>
+  <!-- Products -->
+  <url><loc>https://iswift.in/products.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/products/smart-lock-a12.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/products/vdb-x5.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/products/mesh-m3.php</loc><lastmod>2025-09-05</lastmod></url>
+  <!-- Other pages -->
+  <url><loc>https://iswift.in/transform.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/testimonials.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/partners.php</loc><lastmod>2025-09-05</lastmod></url>
+  <!-- Insights -->
+  <url><loc>https://iswift.in/insights.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/insights/smart-locks-benefits.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/insights/wifi-mesh-vs-extenders.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/insights/smart-curtains-vastu.php</loc><lastmod>2025-09-05</lastmod></url>
+  <!-- Leads and legal -->
+  <url><loc>https://iswift.in/contact.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/book-demo.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/privacy.php</loc><lastmod>2025-09-05</lastmod></url>
+  <url><loc>https://iswift.in/terms.php</loc><lastmod>2025-09-05</lastmod></url>
+</urlset>
